@@ -1,0 +1,93 @@
+[dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.2] injecting env (0) from .env -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.2.2] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+CBT routes registered
+(node:20168) [MONGOOSE] Warning: Duplicate schema index on {"expiresAt":1} found. This is often due to declaring an index using both "index: true" and "schema.index()". Please remove the duplicate index definition.
+(Use `node --trace-warnings ...` to show where the warning was created)
+Server running on port 5040
+✅ Database connected successfully with optimizations
+myusers.createIndex {"email":1} { unique: true, background: true }
+schools.createIndex {"normalizedName":1} { unique: true, background: true }
+quizsessions.createIndex {"userId":1} { background: true }
+quiztemplates.createIndex {"title":"text"} { background: true }
+cbtquizzes.createIndex {"title":"text"} { background: true }
+cbtquizresults.createIndex {"userId":1} { background: true }
+cbtquizsessions.createIndex {"userId":1} { background: true }
+quizresults.createIndex {"userId":1} { background: true }
+quizsessions.createIndex {"quizId":1} { background: true }
+quizzes.createIndex {"title":"text"} { background: true }
+quizresults.createIndex {"quizId":1} { background: true }
+quiztemplates.createIndex {"topic":"text"} { background: true }
+cbtquizzes.createIndex {"topic":"text"} { background: true }
+cbtquizsessions.createIndex {"quizId":1} { background: true }
+quizsessions.createIndex {"userId":1,"status":1} { background: true }
+quizzes.createIndex {"topic":"text"} { background: true }
+quizresults.createIndex {"status":1} { background: true }
+quiztemplates.createIndex {"difficulty":1} { background: true }
+cbtquizzes.createIndex {"difficulty":1} { background: true }
+quizsessions.createIndex {"sessionToken":1} { unique: true, background: true }
+quizzes.createIndex {"difficulty":1} { background: true }
+quizresults.createIndex {"userId":1,"completedAt":-1} { background: true }
+quiztemplates.createIndex {"tags":1} { background: true }
+cbtquizzes.createIndex {"userId":1} { background: true }
+cbtquizresults.createIndex {"quizId":1} { background: true }
+quizsessions.createIndex {"lastActivityAt":1} { background: true }
+quizzes.createIndex {"userId":1} { background: true }
+quizresults.createIndex {"quizId":1,"score":-1} { background: true }
+quiztemplates.createIndex {"category":1} { background: true }
+cbtquizzes.createIndex {"tags":1} { background: true }
+cbtquizresults.createIndex {"status":1} { background: true }
+quizsessions.createIndex {"quizId":1,"userId":1} { background: true }
+quizzes.createIndex {"tags":1} { background: true }
+quizresults.createIndex {"userId":1,"status":1} { background: true }
+quiztemplates.createIndex {"isPublic":1} { background: true }
+cbtquizsessions.createIndex {"sessionToken":1} { unique: true, background: true }
+cbtquizzes.createIndex {"category":1} { background: true }
+cbtquizresults.createIndex {"userId":1,"completedAt":-1} { background: true }
+quizzes.createIndex {"category":1} { background: true }
+quizresults.createIndex {"analytics.accuracy":-1} { background: true }
+quiztemplates.createIndex {"userId":1} { background: true }
+cbtquizsessions.createIndex {"status":1} { background: true }
+cbtquizzes.createIndex {"isPublic":1} { background: true }
+cbtquizresults.createIndex {"quizId":1,"score":-1} { background: true }
+quizzes.createIndex {"isPublic":1} { background: true }
+quizresults.createIndex {"status":1,"completedAt":-1} { background: true }
+quiztemplates.createIndex {"status":1} { background: true }
+cbtquizsessions.createIndex {"expiresAt":1} { expireAfterSeconds: 0, background: true }
+cbtquizzes.createIndex {"status":1} { background: true }
+cbtquizresults.createIndex {"userId":1,"status":1} { background: true }
+quizzes.createIndex {"status":1} { background: true }
+quizresults.createIndex {"difficulty":1,"status":1} { background: true }
+quiztemplates.createIndex {"userId":1,"createdAt":-1} { background: true }
+cbtquizsessions.createIndex {"userId":1,"status":1} { background: true }
+cbtquizzes.createIndex {"userId":1,"createdAt":-1} { background: true }
+cbtquizresults.createIndex {"analytics.accuracy":-1} { background: true }
+quizzes.createIndex {"userId":1,"createdAt":-1} { background: true }
+quizresults.createIndex {"questionTypes":1,"status":1} { background: true }
+quiztemplates.createIndex {"isPublic":1,"difficulty":1,"category":1} { background: true }
+cbtquizsessions.createIndex {"quizId":1,"status":1} { background: true }
+cbtquizzes.createIndex {"isPublic":1,"difficulty":1,"category":1} { background: true }
+cbtquizresults.createIndex {"createdAt":1} { expireAfterSeconds: 31536000, background: true }
+quizzes.createIndex {"isPublic":1,"difficulty":1,"category":1} { background: true }
+quizresults.createIndex {"userId":1,"quizId":1,"completedAt":-1} { background: true }
+quiztemplates.createIndex {"tags":1,"status":1} { background: true }
+cbtquizsessions.createIndex {"sessionToken":1,"status":1} { background: true }
+cbtquizzes.createIndex {"tags":1,"status":1} { background: true }
+quizzes.createIndex {"tags":1,"status":1} { background: true }
+quizresults.createIndex {"createdAt":1} { expireAfterSeconds: 31536000, background: true }
+quiztemplates.createIndex {"usageCount":-1} { background: true }
+cbtquizsessions.createIndex {"expiresAt":1} { expireAfterSeconds: 0, background: true }
+cbtquizzes.createIndex {"metadata.averageScore":-1} { background: true }
+quizzes.createIndex {"metadata.averageScore":-1} { background: true }
+quiztemplates.createIndex {"rating":-1} { background: true }
+cbtquizzes.createIndex {"metadata.totalAttempts":-1} { background: true }
+quizzes.createIndex {"metadata.totalAttempts":-1} { background: true }
+quiztemplates.createIndex {"title":"text","description":"text","topic":"text"} { background: true }
+quizzes.createIndex {"topic":"text","title":"text"} { background: true }
+quiztemplates.createIndex {"category":1,"usageCount":-1} { background: true }
+quizzes.createIndex {"category":1,"difficulty":1,"metadata.averageScore":-1} { background: true }
+quiztemplates.createIndex {"userId":1,"status":1} { background: true }
+quizzes.createIndex {"userId":1,"status":1,"createdAt":-1} { background: true }
