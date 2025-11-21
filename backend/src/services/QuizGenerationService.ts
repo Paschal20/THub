@@ -1,6 +1,6 @@
 // src/services/QuizGenerationService.ts
 import OpenAI from "openai";
-import { QuizQuestion } from "../types/index";
+import { QuizQuestion } from "../types/index.js";
 import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();

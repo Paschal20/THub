@@ -1,7 +1,7 @@
 
 
 import OpenAI from "openai";
-import { QuizQuestion } from "../types/index";
+import { QuizQuestion } from "../types/index.js";
 import {
   ContentProcessor,
   CacheService,
